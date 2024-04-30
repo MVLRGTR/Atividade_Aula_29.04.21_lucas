@@ -5,3 +5,4 @@ class Gerente:
         pass
     def SolicitarRelatorioEstoque(self) -> RelatorioEstoque:
         pass
+    

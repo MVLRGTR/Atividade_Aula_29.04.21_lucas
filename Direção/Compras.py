@@ -15,8 +15,6 @@ class PedidoReposicao:
     def RealizarPedido(self) -> None:
         pass
 
-
-
 class SetorCompras:
     def gerarPedidoReposicao(self, produto: Produtos) -> PedidoReposicao:
         pass
