@@ -21,6 +21,10 @@ class Atendentes:
         pass
 
     def CriarPedido(self,cliente:Clientes ,pedido :Pedidos) -> None:
+        if(self.VerificarSenha('senha_qui')==True):
+            pass
+        else:
+            print('Informar erro de senha')
         pass
 
     

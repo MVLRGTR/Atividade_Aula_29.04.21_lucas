@@ -1,0 +1,12 @@
+Explicação para o diagrama de classes
+
+Atendentes:
+    -Depende de Dados
+    -Associação com Cliente
+    -Associação com Pedido
+
+Clientes:
+    -Agregação com Pedidos
+
+Pedidos:
+    -composição com Produtos
