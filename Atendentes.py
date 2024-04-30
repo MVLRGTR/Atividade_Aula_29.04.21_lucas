@@ -1,5 +1,6 @@
-from typing import list
 from Dados import Dados,DadosCadastro
+from Clientes import Clientes
+from Pedidos import Pedidos
 
 class Atendentes:
 
@@ -10,7 +11,7 @@ class Atendentes:
     def verificaCadastroCliente(self , ClienteDados:Dados) -> bool:
         pass
 
-    def CadastrarCliente(self,ClienteDados:DadosCadastro) -> Cliente:
+    def CadastrarCliente(self,ClienteDados:DadosCadastro) -> Clientes:
         pass
 
     def GerarSenha(self)-> str :
@@ -19,5 +20,8 @@ class Atendentes:
     def VerificarSenha(self,senha : str) -> bool :
         pass
 
-    def CriarPedido(self,cliente:Cliente ,pedido :Pedido) -> None:
+    def CriarPedido(self,cliente:Clientes ,pedido :Pedidos) -> None:
         pass
+
+    
+    
