@@ -10,12 +10,25 @@ class Pedidos:
         self.valortotal = ValorTotal
         self.formapgto = FormaPagamento
         self.parcelas = Parcelas
+        self.status = 'criado'
     
     def AdicionarProduto(self,produto:Produtos, quantidade : int) -> None:
-        pass
-
+        if(self.VerificaDisponibilidadeProduto(Produtos)==True):
+            pass
+        else:
+            print('informa cliente que o produto para a qunatidade em questão não está disponivél  ')
+        
     def RemoverProduto(self,produto:Produtos, quantidade : int) -> None:
         pass
 
     def ValorTotal(self) -> None:
+        pass
+
+    def VerificaDisponibilidadeProduto(self,Produto:Produtos) -> bool:
+        pass
+
+    def CheckPagamento(self) -> None:
+        pass
+
+    def MudaStatus(self) -> None:
         pass

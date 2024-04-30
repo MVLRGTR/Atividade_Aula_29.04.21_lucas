@@ -10,3 +10,24 @@ Clientes:
 
 Pedidos:
     -composição com Produtos
+
+------------------------------
+Gerente:
+    -Associação com RelatorioVendas
+    -Associação com RelatorioEstoque
+
+RelatorioVendas:
+    -Agregação com Pedidos
+
+RelatorioEstoque:
+    -Agregação com Produtos
+
+SetorCompras:
+    -Depende de Produtos
+
+PedidoReposicao:
+    -Agregação com Produtos
+    -Agregação com Fornecedores
+
+Fornecedor:
+    -Agregação com Produtos
